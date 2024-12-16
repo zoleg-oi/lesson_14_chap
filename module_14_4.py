@@ -9,7 +9,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from crud_functions import *
 
-api = '7618039601:AAHs_XcJDT8_WC65T3cTeHWSYFI58GxI6Qo'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
